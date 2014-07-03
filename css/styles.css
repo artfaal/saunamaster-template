@@ -157,7 +157,7 @@ aside {
     width: 250px;
 }
 .aside-menu li {
-    font-weight: 300;
+    font-family: 'Cuprum-Regular', sans-serif;
     list-style-type: square;
     border-top: 1px solid #e7e7e7;
 }
@@ -174,16 +174,50 @@ aside {
     color: #8f8f8f;
 }
 
+/* ============= Content Sidebar*/
+aside > h2 {
+    background: #e07926;
+    font: 14px 'Cuprum-Regular', sans-serif;
+    color: #fff;
+    padding: 10px;
+    margin: 30px 0 0 0;
+}
+
+aside > p {
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    margin: 0;
+}
 
 
-
-
-
+/* ================ SECTION ================*/
 section {
     margin-left: 280px;
     padding-bottom: 50px;
 }
+blockquote {
+    margin: 0;
+    background: #e07926;
+    padding: 10px 20px;
+    font-family: 'Cuprum-Regular', sans-serif;
+}
 
+blockquote p {
+    color: #fff;
+    font-style: italic;
+    font-size: 25px;
+    margin: 0;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    color: #efefef;
+    margin: 0;
+    text-align: right;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
