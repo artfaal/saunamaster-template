@@ -64,8 +64,8 @@ textarea {
 
    /* ================ HEADER ================*/
 body {
-    color: #8f8f8f;
-    font: 12px Tahoma, sans-serif;
+    color: #858383;
+    font: 14px Tahoma, sans-serif;
     background: #f8f8f8 url(../img/bg.png);
     border-top: 5px solid #7e7e7e;
     margin: 0;
@@ -129,7 +129,7 @@ nav li {
 }
 
 .top-menu a {
-    color: #b2b2b2;
+    color: #858383;
 }
 
 
@@ -171,7 +171,7 @@ aside {
 }
 
 .aside-menu a {
-    color: #8f8f8f;
+    color: #858383;
 }
 
 /* ============= Content Sidebar*/
