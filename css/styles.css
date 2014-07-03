@@ -151,8 +151,38 @@ h1 {
 }
 
 
+/* ================ ASIDE ================*/
+aside {
+    float: left;
+    width: 250px;
+}
+.aside-menu li {
+    font-weight: 300;
+    list-style-type: square;
+    border-top: 1px solid #e7e7e7;
+}
+
+.aside-menu li:first-child {
+    border: none;
+}
+
+.aside-menu li.active {
+    color: #e07926;
+}
+
+.aside-menu a {
+    color: #8f8f8f;
+}
 
 
+
+
+
+
+section {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
 
 /* ==========================================================================
    Media Queries
