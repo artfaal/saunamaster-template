@@ -21,6 +21,8 @@
     #Media Queries
 
     #Font-Face
+
+    #Misc
 ================================================== */
 html,
 button,
@@ -460,3 +462,9 @@ figure div {
     font-weight: normal;
     font-style: normal;
 }
+
+/* #Misc
+================================================== */
+    .remove-bottom { margin-bottom: 0 !important; }
+    .half-bottom { margin-bottom: 10px !important; }
+    .add-bottom { margin-bottom: 20px !important; }

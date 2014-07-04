@@ -14,8 +14,7 @@
     #Tablet (Portrait)
     #Mobile (Portrait)
     #Mobile (Landscape)
-    #Clearing
-    #Misc */
+    #Clearing */
 
 
 
@@ -241,9 +240,3 @@
       width: 0;
       height: 0;
     }
-
-/* #Misc
-================================================== */
-    .remove-bottom { margin-bottom: 0 !important; }
-    .half-bottom { margin-bottom: 10px !important; }
-    .add-bottom { margin-bottom: 20px !important; }
