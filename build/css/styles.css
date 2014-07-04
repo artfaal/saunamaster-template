@@ -80,19 +80,19 @@ img {
 ======================*/
 body {
     color: #646464;
-    font: 14px Tahoma, sans-serif;
+    font: .875em Tahoma, sans-serif; /* 14 / 16 */
     background: #f8f8f8 url(../img/bg.png);
-    border-top: 5px solid #7e7e7e;
+    border-top: .4em solid #7e7e7e; /* 5px */
     margin: 0;
     line-height: 1.5;
 }
 
 input[type="text"] {
     background-color: #f3f3f3;
-    border: 1px solid #e7e7e7;
-    height: 30px;
+    border: .1em solid #e7e7e7;
+    height: 2.15em; /* 30px */
     color: #b2b2b2;
-    padding: 0 10px;
+    padding: 0 .75em; /* 10px */
     vertical-align: top;
 }
 
@@ -100,16 +100,16 @@ button {
     color: #fff;
     background-color: #e07926;
     border: none;
-    height: 32px;
+    height: 2.3em; /* 32px */
     font-family: 'Cuprum-Bold', sans-serif;
 }
 
 p {
-    margin: 20px 0;
+    margin: 1.45em 0; /* 20px */
 }
 
 form[name="search"] {
-    margin-top: 40px;
+    margin-top: 2.9em; /* 40px */
 }
 
 /* #Navigation
@@ -125,13 +125,13 @@ nav ul {
 
 nav li {
     list-style-position: inside;
-    font: 14px 'Cuprum-Bold', sans-serif;
-    padding: 10px;
+    font: 1em 'Cuprum-Bold', sans-serif;
+    padding: .75em;
 }
 
 .top-menu li {
     display: inline-block;
-    padding: 10px 30px;
+    padding: .75em 2.15em;
     margin: 0;
 }
 
@@ -148,25 +148,21 @@ nav li {
 ======================*/
 .heading {
     background: transparent url(../img/h1-bg.png);
-    margin: 30px 0;
-    padding-left: 20px;
+    margin: 2.15em 0;
+    padding-left: 1.45em;
 }
 
-h1 {
+.heading h1 {
     display: inline-block;
     color: #7e7e7e;
-    font: 40px/40px 'Cuprum-Bold', sans-serif;
+    font: 2.85em/1em 'Cuprum-Bold', sans-serif;
     background: url(../img/bg.png);
     margin: 0;
-    padding: 0 10px;
+    padding: 0 .25em;
 }
 
 /* #Aside
 ======================*/
-aside {
-    float: left;
-    width: 250px;
-}
 .aside-menu li {
     font-family: 'Cuprum-Regular', sans-serif;
     list-style-type: square;
@@ -189,42 +185,39 @@ aside {
 ======================*/
 aside > h2 {
     background: #e07926;
-    font: 14px 'Cuprum-Regular', sans-serif;
+    font: .875em 'Cuprum-Regular', sans-serif;
     color: #fff;
-    padding: 10px;
-    margin: 30px 0 0 0;
+    padding: .75em;
+    margin: 2em 0 0 0;
 }
 
 aside > p{
     background: #f3f3f3;
     border: 1px solid #e7e7e7;
-    padding: 10px;
+    padding: .75em;
     margin: 0;
 }
 
 /* #Section
 ======================*/
-section {
-    margin-left: 280px;
-    padding-bottom: 50px;
-}
+
 blockquote {
     margin: 0;
     background: #e07926;
-    padding: 10px 20px;
+    padding: .75em 1.45em;
     font-family: 'Cuprum-Regular', sans-serif;
 }
 
 blockquote p{
     color: #fff;
     font-style: italic;
-    font-size: 25px;
+    font-size: 1.8em;
     margin: 0;
 }
 
 blockquote cite {
     display: block;
-    font-size: 20px;
+    font-size: 1.3em;
     font-style: normal;
     color: #efefef;
     margin: 0;
@@ -430,7 +423,9 @@ figure div {
 ================================================== */
 
     /* Smaller than standard 960 (devices and browsers) */
-    @media only screen and (max-width: 959px) {}
+    @media only screen and (max-width: 959px) {
+        .inviz-xs {display: none !important; visibility: hidden;}
+    }
 
     /* Tablet Portrait size to standard 960 (devices and browsers) */
     @media only screen and (min-width: 768px) and (max-width: 959px) {}
@@ -465,6 +460,50 @@ figure div {
 
 /* #Misc
 ================================================== */
-    .remove-bottom { margin-bottom: 0 !important; }
-    .half-bottom { margin-bottom: 10px !important; }
-    .add-bottom { margin-bottom: 20px !important; }
+.remove-bottom { margin-bottom: 0 !important; }
+.half-bottom { margin-bottom: 10px !important; }
+.add-bottom { margin-bottom: 20px !important; }
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
