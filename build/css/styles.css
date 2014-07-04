@@ -1,5 +1,27 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* Table of Content
+==================================================
+    #Site Styles
+        #Main
+        #Header
+        #Navigation
+        #Heading
+        #Aside
+        #Content Sidebar
+        #Section
+        #Figure
+        #Footer
+        #Twitter
+        #Sitemap
+        #Social
+        #Footer logo
 
+    #Page Styles
+        #Our Team (about.html)
+
+    #Media Queries
+
+    #Font-Face
+================================================== */
 html,
 button,
 input,
@@ -10,7 +32,6 @@ textarea {
 
 html {
     font-size: 1em;
-    line-height: 1.5;
 }
 
 ::-moz-selection {
@@ -49,20 +70,12 @@ textarea {
     resize: vertical;
 }
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+img {
+    max-width:100%;
 }
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-   /* ================ HEADER ================*/
+/* #Header
+======================*/
 body {
     color: #646464;
     font: 14px Tahoma, sans-serif;
@@ -71,6 +84,7 @@ body {
     margin: 0;
     line-height: 1.5;
 }
+
 input[type="text"] {
     background-color: #f3f3f3;
     border: 1px solid #e7e7e7;
@@ -79,6 +93,7 @@ input[type="text"] {
     padding: 0 10px;
     vertical-align: top;
 }
+
 button {
     color: #fff;
     background-color: #e07926;
@@ -86,25 +101,17 @@ button {
     height: 32px;
     font-family: 'Cuprum-Bold', sans-serif;
 }
-p{
+
+p {
     margin: 20px 0;
-}
-.wrapper {
-    width: 96%;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto
-}
-header {
-    padding: 20px 0;
 }
 
 form[name="search"] {
-    float: right;
+    margin-top: 40px;
 }
 
-
-/* ================ NAVIGATION ================*/
+/* #Navigation
+======================*/
 nav a {
     text-decoration: none;
 }
@@ -135,9 +142,8 @@ nav li {
     color: #646464;
 }
 
-
-
-/* ================ HEADING ================*/
+/* #Heading
+======================*/
 .heading {
     background: transparent url(../img/h1-bg.png);
     margin: 30px 0;
@@ -153,8 +159,8 @@ h1 {
     padding: 0 10px;
 }
 
-
-/* ================ ASIDE ================*/
+/* #Aside
+======================*/
 aside {
     float: left;
     width: 250px;
@@ -177,7 +183,8 @@ aside {
     color: #646464;
 }
 
-/* ============= Content Sidebar*/
+/* #Content Sidebar
+======================*/
 aside > h2 {
     background: #e07926;
     font: 14px 'Cuprum-Regular', sans-serif;
@@ -193,8 +200,8 @@ aside > p{
     margin: 0;
 }
 
-
-/* ================ SECTION ================*/
+/* #Section
+======================*/
 section {
     margin-left: 280px;
     padding-bottom: 50px;
@@ -222,7 +229,8 @@ blockquote cite {
     text-align: right;
 }
 
-/* ============= FIGURE*/
+/* #Figure
+======================*/
 figure {
     display: inline-block;
     margin: 0;
@@ -249,35 +257,8 @@ section > figure + figure {
     margin-left: 28px;
 }
 
-/* ============= OUR TEAM*/
-section > h2 {
-    background: #e07926;
-    font: 25px 'Cuprum-Regular', sans-serif;
-    color: #fff;
-    padding: 0 10px;
-    margin: 30px 0 0 0;
-}
-
-figure figcaption {
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-figure div {
-    font-size: 14px;
-    color: #e07926;
-}
-
-.team-row figure {
-    margin-top: 20px;
-}
-
-.team-row figure + figure {
-    margin-left: 43px;
-}
-
-
-/* ================ FOOTER ================*/
+/* #Footer
+======================*/
 footer {
     background: #7e7e7e;
     color: #dbdbdb;
@@ -291,7 +272,8 @@ footer {
     height: 90px;
 }
 
-/*Twitter*/
+/* #Twitter
+======================*/
 footer h3 {
     font: 14px 'Cuprum-Bold', sans-serif;
     color: #fff;
@@ -316,7 +298,8 @@ footer p{
     padding-right: 15px;
 }
 
-/*SITEMAP*/
+/* #Sitemap
+======================*/
 footer a {
     color: #dbdbdb;
 }
@@ -347,7 +330,8 @@ footer a {
     text-decoration: underline;
 }
 
-/*Social*/
+/* #Social
+======================*/
 .social {
     float: left;
     margin-left: 20px;
@@ -402,7 +386,8 @@ footer a {
     background-position: -64px 0;
 }
 
-/*LOGO*/
+/* #Footer logo
+======================*/
 .footer-logo {
     float: right;
     margin-top: 20px;
@@ -410,146 +395,68 @@ footer a {
     text-align: right;
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
+/* #Page Styles
+   #Our Team (about.html)
+================================================== */
+section > h2 {
+    background: #e07926;
+    font: 25px 'Cuprum-Regular', sans-serif;
+    color: #fff;
+    padding: 0 10px;
+    margin: 30px 0 0 0;
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+figure figcaption {
+    font-size: 16px;
+    margin-top: 5px;
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
+figure div {
+    font-size: 14px;
+    color: #e07926;
 }
 
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+.team-row figure {
+    margin-top: 20px;
 }
 
-.hidden {
-    display: none !important;
-    visibility: hidden;
+.team-row figure + figure {
+    margin-left: 43px;
 }
 
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+/* #Media Queries
+================================================== */
+
+    /* Smaller than standard 960 (devices and browsers) */
+    @media only screen and (max-width: 959px) {}
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {}
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+@font-face {
+    font-family: 'Cuprum-Regular';
+    src: url('../fonts/Cuprum-Regular/Cuprum-Regular.eot');
+    src: local('☺'), url('../fonts/Cuprum-Regular/Cuprum-Regular.woff') format('woff'), url('../fonts/Cuprum-Regular/Cuprum-Regular.ttf') format('truetype'), url('../fonts/Cuprum-Regular/Cuprum-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+@font-face {
+    font-family: 'Cuprum-Bold';
+    src: url('../fonts/Cuprum-Bold/Cuprum-Bold.eot');
+    src: local('☺'), url('../fonts/Cuprum-Bold/Cuprum-Bold.woff') format('woff'), url('../fonts/Cuprum-Bold/Cuprum-Bold.ttf') format('truetype'), url('../fonts/Cuprum-Bold/Cuprum-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
