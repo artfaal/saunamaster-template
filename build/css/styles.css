@@ -226,11 +226,18 @@ blockquote cite {
     text-align: right;
 }
 
+section > h2 {
+    background: #e07926;
+    font: 1.5em 'Cuprum-Regular', sans-serif;
+    color: #fff;
+    padding: .15em .5em;
+    margin: 1.5em 0 1em 0;
+}
+
 /* #Figure
 ======================*/
 figure {
     display: inline-block;
-    margin: 0;
     font-family: 'Cuprum-Regular', sans-serif;
 }
 
@@ -241,17 +248,14 @@ figure img {
 }
 
 figure figcaption {
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 1.1em;
+    margin-top: .5em;
 }
 
 figure figcaption span {
     display: block;
-    font-size: 14px;
+    font-size: 1em;
     color: #e07926;
-}
-section > figure + figure {
-    margin-left: 28px;
 }
 
 /* #Footer
@@ -393,33 +397,8 @@ footer a {
 }
 
 /* #Page Styles
-   #Our Team (about.html)
 ================================================== */
-section > h2 {
-    background: #e07926;
-    font: 25px 'Cuprum-Regular', sans-serif;
-    color: #fff;
-    padding: 0 10px;
-    margin: 30px 0 0 0;
-}
 
-figure figcaption {
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-figure div {
-    font-size: 14px;
-    color: #e07926;
-}
-
-.team-row figure {
-    margin-top: 20px;
-}
-
-.team-row figure + figure {
-    margin-left: 43px;
-}
 
 /* #Media Queries
 ================================================== */
@@ -438,7 +417,7 @@ figure div {
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .inviz-l {display: none !important; visibility: hidden;}
-        .top-menu li {text-align: left;}
+        .top-menu li {text-align: left; padding-left: 1em;}
     }
 
     /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
