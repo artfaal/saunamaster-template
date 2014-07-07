@@ -125,14 +125,15 @@ nav ul {
 
 nav li {
     list-style-position: inside;
-    font: 1em 'Cuprum-Bold', sans-serif;
-    padding: .75em;
+    font: 1.1em 'Cuprum-Bold', sans-serif;
+    padding: .75em 0;
 }
 
 .top-menu li {
     display: inline-block;
-    padding: .75em 2.15em;
+    padding: .75em 0;
     margin: 0;
+    text-align: center;
 }
 
 .top-menu li.active {
@@ -437,6 +438,7 @@ figure div {
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .inviz-l {display: none !important; visibility: hidden;}
+        .top-menu li {text-align: left;}
     }
 
     /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
