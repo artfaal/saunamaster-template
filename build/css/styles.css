@@ -186,7 +186,7 @@ nav li {
 ======================*/
 aside .sidebar-text {
     background: #e07926;
-    font: .875em 'Cuprum-Regular', sans-serif;
+    font: 1em 'Cuprum-Regular', sans-serif;
     color: #fff;
     padding: .75em;
     margin: 2em 0 0 0;
@@ -195,7 +195,7 @@ aside .sidebar-text {
 aside .sidebar-img{
     background: #f3f3f3;
     border: 1px solid #e7e7e7;
-    padding: .75em;
+    padding: .75em ;
     margin: 0;
     text-align: center;
 }
@@ -213,7 +213,7 @@ blockquote {
 blockquote p{
     color: #fff;
     font-style: italic;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin: 0;
 }
 
@@ -330,14 +330,18 @@ footer a {
 
     /* Smaller than standard 960 (devices and browsers) */
     @media only screen and (max-width: 959px) {
-        .inviz-xs {display: none !important; visibility: hidden;}
+        .inviz-all-ex-full {display: none !important; visibility: hidden;}
     }
 
     /* Tablet Portrait size to standard 960 (devices and browsers) */
-    @media only screen and (min-width: 768px) and (max-width: 959px) {}
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .inviz-tablet {display: none !important; visibility: hidden;
+    }
 
     /* All Mobile Sizes (devices and browser) */
-    @media only screen and (max-width: 767px) {}
+    @media only screen and (max-width: 767px) {
+        /*WTF?*/
+    }
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
     @media only screen and (min-width: 480px) and (max-width: 767px) {
