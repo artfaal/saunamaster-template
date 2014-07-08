@@ -343,12 +343,12 @@ footer a {
     @media only screen and (max-width: 767px) {
         /*WTF?*/
         .inviz-less-tablet{display: none !important; visibility: hidden;}
+        .top-menu li {text-align: left; padding-left: 1em;}
     }
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .inviz-l {display: none !important; visibility: hidden;}
-        .top-menu li {text-align: left; padding-left: 1em;}
     }
 
     /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
