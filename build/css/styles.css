@@ -115,6 +115,9 @@ p {
     margin-top: 1em;
     text-align: right;
 }
+.tel i {
+    padding-right: .2em;
+}
 
 form[name="search"] {
     margin-top: .7em; /* 40px */
