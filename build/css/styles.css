@@ -138,6 +138,10 @@ nav li {
     text-align: center;
 }
 
+.top-menu li:hover {
+    background: #f3ccac;
+}
+
 .top-menu li.active {
     background: #e07926;
     color: #fff;
@@ -146,7 +150,6 @@ nav li {
 .top-menu a {
     color: #646464;
 }
-
 /* #Heading
 ======================*/
 .heading {
@@ -421,12 +424,12 @@ footer a {
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .inviz-l {display: none !important; visibility: hidden;}
+        .inviz-landscape-to-tablet {display: none !important; visibility: hidden;}
     }
 
     /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
     @media only screen and (max-width: 479px) {
-        .inviz-s {display: none !important; visibility: hidden;}
+        .inviz-mob {display: none !important; visibility: hidden;}
     }
 
 
@@ -457,19 +460,6 @@ footer a {
 .remove-top { margin-top: 0 !important; }
 .half-top { margin-top: 10px !important; }
 .add-top { margin-top: 20px !important; }
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
 
 .hidden {
     display: none !important;
