@@ -110,8 +110,15 @@ p {
     margin: 1.45em 0; /* 20px */
 }
 
+.tel {
+    font: 1.4em 'Cuprum-Bold', sans-serif;
+    margin-top: 1em;
+    text-align: right;
+}
+
 form[name="search"] {
-    margin-top: 2.9em; /* 40px */
+    margin-top: .7em; /* 40px */
+    text-align: right;
 }
 
 /* #Navigation
@@ -417,9 +424,9 @@ footer a {
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
-        /*WTF?*/
         .inviz-less-tablet{display: none !important; visibility: hidden;}
         .top-menu li {text-align: left; padding-left: 1em;}
+        .tel {text-align: left;}
     }
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
