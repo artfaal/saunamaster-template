@@ -362,7 +362,7 @@ footer a {
   }
 
 
-/* #News Block
+/* #News Block (index.html)
 ================================================== */
 .news{
     margin: 1.5em 0;
@@ -378,6 +378,7 @@ footer a {
     color: #7e7e7e;
     font: 1.35em 'Cuprum-Regular', sans-serif;
     background: url(../img/bg.png);
+    padding-right: .3em;
     margin: 0;
 }
 
@@ -396,9 +397,6 @@ footer a {
 .news p {
     padding-top: 1.3em;
     text-align: justify;
-}
-
-.dillers img{
 }
 
 /* #Media Queries
