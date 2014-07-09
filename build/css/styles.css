@@ -86,7 +86,6 @@ body {
     border-top: .4em solid #7e7e7e; /* 5px */
     margin: 0;
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
 }
 
 input[type="text"] {
