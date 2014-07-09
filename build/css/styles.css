@@ -366,12 +366,11 @@ footer a {
 ================================================== */
 .news{
     margin: 2.15em 0;
-    /*height: 10em;*/
 }
 .news .news-title {
     background: transparent url(../img/h1-bg.png);
     width: 100%;
-    float: right;
+    float: left;
 }
 
 .news h3 {
@@ -385,7 +384,7 @@ footer a {
 /*orange square*/
 .news i {
     color: #e07926;
-    padding-right: .2em;
+    padding-right: .3em;
 
 }
 
@@ -396,6 +395,7 @@ footer a {
 }
 .news p {
     padding-top: .5em;
+    text-align: justify;
 }
 
 
