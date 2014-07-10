@@ -104,7 +104,7 @@ button {
     background-color: #e07926;
     border: none;
     height: 2.3em; /* 32px */
-    font-family: 'Cuprum-Bold', sans-serif;
+    font-family: 'Cuprum', bold,  sans-serif;
 }
 
 p {
@@ -138,7 +138,7 @@ nav ul {
 
 nav li {
     list-style-position: inside;
-    font: 1.1em 'Cuprum-Bold', sans-serif;
+    font: 1.1em 'Cuprum', bold,  sans-serif;
     padding: .75em 0;
 }
 
@@ -173,7 +173,7 @@ nav li {
 .heading h1 {
     display: inline-block;
     color: #7e7e7e;
-    font: 2.85em/1em 'Cuprum-Bold', sans-serif;
+    font: 2.85em/1em 'Cuprum', bold,  sans-serif;
     background: url(../img/bg.png);
     margin: 0;
     padding: 0 .25em;
@@ -290,7 +290,7 @@ footer {
 }
 
 footer h3 {
-    font: 1.3em 'Cuprum-Bold', sans-serif;
+    font: 1.3em 'Cuprum', bold,  sans-serif;
     color: #fff;
     border-bottom: 1px solid #919191;
     margin: 0 0 .5em 0;
