@@ -514,11 +514,11 @@ footer a {
 /* #Misc
 ================================================== */
 .remove-bottom { margin-bottom: 0 !important; }
-.half-bottom { margin-bto .5em !portant; }
+.half-bottom { margin-bottom:  .5em !portant; }
 .add-bottom { margin-bottom: 20px !important; }
 
 .remove-top { margin-top: 0 !important; }
-.half-top { margito .5em !portant; }
+.half-top { margin-top: .5em !portant; }
 .add-top { margin-top: 20px !important; }
 
 .hidden {
