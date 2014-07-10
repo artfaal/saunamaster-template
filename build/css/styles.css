@@ -184,7 +184,7 @@ nav li {
 /* #Aside
 ======================*/
 .aside-menu li {
-    font-family: 'Cuprum-Regular', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     list-style-type: square;
     border-top: 1px solid #e7e7e7;
     text-transform: uppercase;
@@ -206,7 +206,7 @@ nav li {
 ======================*/
 aside .sidebar-text {
     background: #e07926;
-    font: 1em 'Cuprum-Regular', sans-serif;
+    font: 1em 'Cuprum', sans-serif;
     color: #fff;
     padding: .75em;
     margin: 2em 0 0 0;
@@ -227,7 +227,7 @@ blockquote {
     margin: 0;
     background: #e07926;
     padding: .75em 1.45em;
-    font-family: 'Cuprum-Regular', sans-serif;
+    font-family: 'Cuprum', sans-serif;
 }
 
 blockquote p{
@@ -248,7 +248,7 @@ blockquote cite {
 
 section > h2 {
     background: #e07926;
-    font: 1.8em 'Cuprum-Regular', sans-serif;
+    font: 1.8em 'Cuprum', sans-serif;
     color: #fff;
     padding: .15em .5em;
     /*margin: 1.5em 0 1em 0;*/
@@ -260,7 +260,7 @@ section > h2 {
 ======================*/
 figure {
     display: inline-block;
-    font-family: 'Cuprum-Regular', sans-serif;
+    font-family: 'Cuprum', sans-serif;
 }
 
 figure img {
@@ -395,7 +395,7 @@ footer a {
 .news h3 {
     display: inline-block;
     color: #7e7e7e;
-    font: 1.35em 'Cuprum-Regular', sans-serif;
+    font: 1.35em 'Cuprum', sans-serif;
     background: url(../img/bg.png);
     padding-right: .3em;
     margin: 0;
@@ -434,12 +434,12 @@ footer a {
 }
 
 .item-card h2{
-    font: 1.75em 'Cuprum-Regular', sans-serif;
+    font: 1.75em 'Cuprum', sans-serif;
     color: #e07926;
 }
 
 .item-card art{
-    font: 1em 'Cuprum-Regular', sans-serif;
+    font: 1em 'Cuprum', sans-serif;
     color: #A3A3A3;
 }
 
@@ -455,11 +455,11 @@ footer a {
     padding-bottom: 1em;
 }
 .item-card .price-text {
-    font: 2.2em 'Cuprum-Regular', sans-serif;
+    font: 2.2em 'Cuprum', sans-serif;
     color: #e07926;
 }
 .item-card .price-button {
-    font: 1.2em 'Cuprum-Regular', sans-serif;
+    font: 1.2em 'Cuprum', sans-serif;
     color: #ffffff;
     padding: 5px 10px;
     background: #e07926;
