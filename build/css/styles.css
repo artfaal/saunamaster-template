@@ -438,7 +438,7 @@ footer a {
     color: #e07926;
 }
 
-.item-card article{
+.item-card art{
     font: 1em 'Cuprum-Regular', sans-serif;
     color: #A3A3A3;
 }
@@ -446,12 +446,13 @@ footer a {
 .item-card p{
     color: #8C8C8C;
     text-align: justify;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .item-card .price {
     text-align: right;
     padding-right: 1em;
+    padding-bottom: 1em;
 }
 .item-card .price-text {
     font: 2.2em 'Cuprum-Regular', sans-serif;
@@ -492,6 +493,8 @@ footer a {
         .top-menu li {text-align: left; padding-left: 1em;}
         .tel {text-align: left;}
         .item-card .price {text-align: left;}
+        .item-card-text {padding-left: 1em;}
+        .item-card-text .price .price-text{text-align: center; vertical-align: middle;}
 
     }
 
