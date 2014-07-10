@@ -18,6 +18,7 @@
     #Page Styles
         #Slideshow
         #News Block
+        #Cards (cards.html)
 
     #Media Queries
 
@@ -146,6 +147,7 @@ nav li {
     padding: .75em 0;
     margin: 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .top-menu li:hover {
@@ -175,6 +177,7 @@ nav li {
     background: url(../img/bg.png);
     margin: 0;
     padding: 0 .25em;
+    text-transform: uppercase;
 }
 
 
@@ -184,6 +187,7 @@ nav li {
     font-family: 'Cuprum-Regular', sans-serif;
     list-style-type: square;
     border-top: 1px solid #e7e7e7;
+    text-transform: uppercase;
 }
 
 .aside-menu li:first-child {
@@ -244,10 +248,12 @@ blockquote cite {
 
 section > h2 {
     background: #e07926;
-    font: 1.5em 'Cuprum-Regular', sans-serif;
+    font: 1.8em 'Cuprum-Regular', sans-serif;
     color: #fff;
     padding: .15em .5em;
-    margin: 1.5em 0 1em 0;
+    /*margin: 1.5em 0 1em 0;*/
+    text-transform: uppercase;
+    width: 100%;
 }
 
 /* #Figure
@@ -412,6 +418,61 @@ footer a {
     text-align: justify;
 }
 
+/* #Cards (cards.html)
+================================================== */
+.item-card {
+    background: #FCFCFC;
+    -webkit-box-shadow: 0 0 .4em 0 rgba(50, 50, 50, 0.55);
+    -moz-box-shadow:    0 0 .4em 0 rgba(50, 50, 50, 0.55);
+    box-shadow:         0 0 .4em 0 rgba(50, 50, 50, 0.55);
+    /*padding: 1em;*/
+    /*margin-bottom: 2em;*/
+}
+.item-card img{
+    padding: 1em;
+
+}
+
+.item-card h2{
+    font: 1.75em 'Cuprum-Regular', sans-serif;
+    color: #e07926;
+}
+
+.item-card article{
+    font: 1em 'Cuprum-Regular', sans-serif;
+    color: #A3A3A3;
+}
+
+.item-card p{
+    color: #8C8C8C;
+    text-align: justify;
+    font-size: .8em;
+}
+
+.item-card .price {
+    text-align: right;
+    padding-right: 1em;
+}
+.item-card .price-text {
+    font: 2.2em 'Cuprum-Regular', sans-serif;
+    color: #e07926;
+}
+.item-card .price-button {
+    font: 1.2em 'Cuprum-Regular', sans-serif;
+    color: #ffffff;
+    padding: 5px 10px;
+    background: #e07926;
+    text-shadow:
+    0px 0px 6px rgba(255,255,255,0.3),
+    0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.item-card .price-button:hover {
+    text-shadow:
+    0px 0px 6px rgba(255,255,255,1),
+    0px 1px 0px rgba(255,255,255,0.3);
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -430,6 +491,8 @@ footer a {
         .inviz-less-tablet{display: none !important; visibility: hidden;}
         .top-menu li {text-align: left; padding-left: 1em;}
         .tel {text-align: left;}
+        .item-card .price {text-align: left;}
+
     }
 
     /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -464,11 +527,11 @@ footer a {
 /* #Misc
 ================================================== */
 .remove-bottom { margin-bottom: 0 !important; }
-.half-bottom { margin-bottom: 10px !important; }
+.half-bottom { margin-bto .5em !portant; }
 .add-bottom { margin-bottom: 20px !important; }
 
 .remove-top { margin-top: 0 !important; }
-.half-top { margin-top: 10px !important; }
+.half-top { margito .5em !portant; }
 .add-top { margin-top: 20px !important; }
 
 .hidden {
