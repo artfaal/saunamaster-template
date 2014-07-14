@@ -98,14 +98,25 @@ input[type="text"] {
     vertical-align: top;
     width: 8.45em;
 }
+input[type="text"]:focus {
+    outline: none;
+}
 
 button {
     color: #fff;
     background-color: #e07926;
     border: none;
-    height: 2.3em; /* 32px */
-    font-family: 'Cuprum', sans-serif;
-    font-weight: 700;
+    height: 2.3em;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: background;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+}
+
+button:hover {
+    background: #646464;
 }
 
 p {
@@ -150,10 +161,17 @@ nav li {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: background;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
 }
 
 .top-menu li:hover {
-    background: #f3ccac;
+    color: #fff;
+    background: #f0AA71;
 }
 
 .top-menu li.active {
@@ -163,6 +181,7 @@ nav li {
 
 .top-menu a {
     color: #646464;
+
 }
 /* #Heading
 ======================*/
