@@ -116,7 +116,7 @@ button {
 }
 
 button:hover {
-    background-color: #e07926;
+    background: #e07926;
 }
 
 p {
@@ -161,17 +161,19 @@ nav li {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    -webkit-transition-property: background;
+    color: #fff;
+    background: #666666;
+    -webkit-transition-property: background-color, color;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
-    -moz-transition-property: background;
+    -moz-transition-property: background-color, color;
     -moz-transition-duration: 0.5s;
     -moz-transition-timing-function: ease;
 }
 
 .top-menu li:hover {
     color: #fff;
-    background: #f0AA71;
+    background: #e07926;
 }
 
 .top-menu li.active {
@@ -180,7 +182,7 @@ nav li {
 }
 
 .top-menu a {
-    color: #666666;
+    color: #fff;
 
 }
 /* #Heading
