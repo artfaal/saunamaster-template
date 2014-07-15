@@ -52,7 +52,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #cccccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -84,16 +84,16 @@ body {
     color: #666666;
     font: .875em Tahoma, sans-serif; /* 14 / 16 */
     background: #f8f8f8 url(../img/bg.png);
-    border-top: .4em solid #7e7e7e; /* 5px */
+    border-top: .4em solid #888888; /* 5px */
     margin: 0;
     line-height: 1.5;
 }
 
 input[type="text"] {
-    background-color: #f3f3f3;
-    border: .1em solid #e7e7e7;
+    background-color: #f7f7f7;
+    border: .1em solid #dddddd;
     height: 2.15em; /* 30px */
-    color: #b2b2b2;
+    color: #aaaaaa;
     padding: 0 .75em; /* 10px */
     vertical-align: top;
     width: 8.45em;
@@ -171,7 +171,7 @@ nav li {
 
 .top-menu li:hover {
     color: #fff;
-    background: #f0AA71;
+    background: #e89e61;
 }
 
 .top-menu li.active {
@@ -193,7 +193,7 @@ nav li {
 
 .heading h1 {
     display: inline-block;
-    color: #7e7e7e;
+    color: #888888;
     font: 2.85em/1em 'Cuprum', sans-serif;
     font-weight: 700;
     background: url(../img/bg.png);
@@ -208,7 +208,7 @@ nav li {
 .aside-menu li {
     font-family: 'Cuprum', sans-serif;
     list-style-type: square;
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid #dddddd;
     text-transform: uppercase;
 }
 
@@ -235,8 +235,8 @@ aside .sidebar-text {
 }
 
 aside .sidebar-img{
-    background: #f3f3f3;
-    border: 1px solid #e7e7e7;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
     padding: .75em ;
     margin: 0;
     text-align: center;
@@ -263,7 +263,7 @@ blockquote cite {
     display: block;
     font-size: 1.3em;
     font-style: normal;
-    color: #efefef;
+    color: #f7f7f7;
     margin: 0;
     text-align: right;
 }
@@ -292,7 +292,7 @@ figure {
 figure img {
     display: block;
     border: 1px solid #fff;
-    outline: 1px solid #c9c9c9;
+    outline: 1px solid #cccccc;
 }
 
 figure figcaption {
@@ -309,8 +309,8 @@ figure figcaption span {
 /* #Footer
 ======================*/
 footer {
-    background: #7e7e7e;
-    color: #dbdbdb;
+    background: #888888;
+    color: #dddddd;
     font-size: .8em;
     padding: 1em;
 }
@@ -319,7 +319,7 @@ footer h3 {
     font: 1.3em 'Cuprum', sans-serif;
     font-weight: 700;
     color: #fff;
-    border-bottom: 1px solid #919191;
+    border-bottom: 1px solid #aaaaaa;
     margin: 0 0 .5em 0;
 }
 
@@ -330,13 +330,13 @@ footer p{
 /* #Twitter
 ======================*/
 .twitter time a {
-    color: #b4aeae;
+    color: #aaaaaa;
 }
 
 /* #Sitemap
 ======================*/
 footer a {
-    color: #dbdbdb;
+    color: #dddddd;
 }
 
 .sitemap div {
@@ -421,7 +421,7 @@ footer a {
 
 .news h3 {
     display: inline-block;
-    color: #7e7e7e;
+    color: #888888;
     font: 1.35em 'Cuprum', sans-serif;
     background: url(../img/bg.png);
     padding-right: .3em;
@@ -448,7 +448,7 @@ footer a {
 /* #Cards (cards.html)
 ================================================== */
 .item-card {
-    background: #FCFCFC;
+    background: #f7f7f7;
     -webkit-box-shadow: 0 0 .4em 0 rgba(50, 50, 50, 0.55);
     -moz-box-shadow:    0 0 .4em 0 rgba(50, 50, 50, 0.55);
     box-shadow:         0 0 .4em 0 rgba(50, 50, 50, 0.55);
@@ -467,11 +467,11 @@ footer a {
 
 .item-card art{
     font: 1em 'Cuprum', sans-serif;
-    color: #A3A3A3;
+    color: #aaaaaa;
 }
 
 .item-card p{
-    color: #8C8C8C;
+    color: #888888;
     text-align: justify;
     font-size: .9em;
 }
