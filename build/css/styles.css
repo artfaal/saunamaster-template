@@ -83,7 +83,7 @@ img {
 body {
     color: #666666;
     font: .875em Tahoma, sans-serif; /* 14 / 16 */
-    background: #f8f8f8 url(../img/bg.png);
+    background: #f8f8f8 url(../img/bg/bg.png);
     border-top: .4em solid #888888; /* 5px */
     margin: 0;
     line-height: 1.5;
@@ -487,7 +487,7 @@ footer a {
 }
 .item-card .price-button {
     font: 1.2em 'Cuprum', sans-serif;
-    color: #ffffff;
+    color: #fff;
     padding: 5px 10px;
     background: #666666;
 
