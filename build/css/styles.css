@@ -268,15 +268,16 @@ blockquote cite {
     text-align: right;
 }
 section {
+    /*background: #666666;*/
     text-align: justify;
+
 }
 
-section > h2 {
+.mark-orange-imp-text {
     background: #e07926;
     font: 1.8em 'Cuprum', sans-serif;
     color: #fff;
-    padding: .15em .5em;
-    /*margin: 1.5em 0 1em 0;*/
+    padding: .15em 0em .15em .5em;
     text-transform: uppercase;
     width: 100%;
 }
