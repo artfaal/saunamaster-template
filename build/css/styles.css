@@ -107,12 +107,6 @@ button {
     background: #666666;
     border: none;
     height: 2.3em;
-    -webkit-transition-property: background;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-property: background;
-    -moz-transition-duration: 0.5s;
-    -moz-transition-timing-function: ease;
 }
 
 button:hover {
@@ -161,12 +155,6 @@ nav li {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    -webkit-transition-property: background;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-property: background;
-    -moz-transition-duration: 0.5s;
-    -moz-transition-timing-function: ease;
 }
 
 .top-menu li:hover {
@@ -573,4 +561,12 @@ footer a {
 
 .invisible {
     visibility: hidden;
+}
+
+.animation {
+    -webkit-transition: background-color 0.7s, color 1s, opacity 0.5s;
+    -ms-transition: background-color 0.7s, color 1s, opacity 0.5s;
+    -o-transition: background-color 0.7s, color 1s, opacity 0.5s;
+    -moz-transition: background-color 0.7s, color 1s, opacity 0.5s;
+    transition: background-color 0.7s, color 1s, opacity 0.5s;
 }
